@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+#navbar {
+  background-color: orange;
+}
+
+#headerList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0 0 0 auto;
+  list-style-type: none;
+}
+
+.headerLinks {
+  padding: 5px;
+  margin: 15px 15px;
+}
+
+#welcome-section {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: red;
+  min-height: 100vh;
+
+}
+
+#name {
+  align-self: end;
+  margin-bottom: .25em;
+}
+
+#profession {
+  align-self: start;
+  margin-top: .25em;
+}
+
+.identity {
+  position: relative;
+  bottom: 50px;
+}
+
+@media screen {
+
+}
