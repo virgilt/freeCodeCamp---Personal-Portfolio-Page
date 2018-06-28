@@ -24,7 +24,7 @@ body {
   justify-items: center;
   align-items: center;
   background-color: red;
-  min-height: 100vh;
+  min-height: 50vh;
 
 }
 
@@ -40,7 +40,11 @@ body {
 
 .identity {
   position: relative;
-  bottom: 50px;
+  bottom: 20px;
+}
+
+.image {
+  height: 180px;
 }
 
 @media screen {
